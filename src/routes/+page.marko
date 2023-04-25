@@ -1,15 +1,6 @@
-style {
-  main {
-    background: lightcyan;
-  }
-}
+<let/count=0/>
+<effect() { document.title = `You clicked ${count} times`; }/>
 
-class {
-  onMount() {
-    console.log('Mounted home')
-  }
-}
-
-<main>
-  <h1>Home</h1>
-</main>
+<button onClick() { count++; }>
+	Click me ${count}
+</button>

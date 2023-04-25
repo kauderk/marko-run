@@ -21,6 +21,7 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@marko/tags-api-preview": "^0.7.0",
     "marko": "^5.22.4"
   }
 }
